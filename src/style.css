@@ -78,12 +78,12 @@ body.overflow {
 }
 
 .sidebar__user {
-    background-color: #F4F4F4;
+    background-color: #363735;
     padding: 20px 30px;
     margin-left: 60px;
     margin-bottom: 100px;
     border-radius: 8px;
-    border: 1px solid #DADEC9;
+    border: 1px solid #5c5e5b;
 }
 
 .sidebar__name {
@@ -132,7 +132,7 @@ body.overflow {
 
 
 .content__title {
-    color: #161814;
+    color: #fff;
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 40px;
