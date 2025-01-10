@@ -87,7 +87,8 @@ body.overflow {
 }
 
 .sidebar__name {
-    color:#161814;
+    color: #fff;
+    opacity: 0.6;
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 6px;
