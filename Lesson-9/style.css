@@ -1,0 +1,44 @@
+body {
+  color: #fff;
+  padding: 10px;
+}
+
+.header {
+  width: 500px;
+  height: 140px;
+  background: rgb(71, 68, 68);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header__title {
+}
+.through {
+  text-decoration: line-through;
+}
+.accent-text {
+  color: rgb(150, 8, 163);
+  font-weight: 600;
+}
+.header__square {
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+.main {
+  background: plum;
+  width: 300px;
+}
+.main__title {
+  color: #000;
+}
+.main__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px 4px  ;
+}
+.main__card {
+  background: purple;
+  font-size: 14px;
+  width: 65px;
+}
