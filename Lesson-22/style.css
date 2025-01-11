@@ -1,0 +1,21 @@
+.header {
+  background: orange;
+  height: 60px;
+}
+.header__list-item a {
+  color: #000;
+}
+
+
+.second__quote-wrap {
+  background: pink;
+}
+
+.footer {
+  background: purple;
+  color: #fff;
+}
+
+.footer__list-item a {
+  color: #fff;
+}
