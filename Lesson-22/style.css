@@ -6,6 +6,10 @@
   color: #000;
 }
 
+.first__img {
+  width: 250px;
+  height: 250px;
+}
 
 .second__quote-wrap {
   background: pink;
