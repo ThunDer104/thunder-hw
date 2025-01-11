@@ -18,6 +18,7 @@
 .footer {
   background: purple;
   color: #fff;
+  height: 300px
 }
 
 .footer__list-item a {
