@@ -1,0 +1,144 @@
+.btn, .article__btn {
+  transition: all 0.5s;
+}
+
+
+.btn:hover, .article__btn:hover {
+  color: #ffffff;
+  animation: squeeze3124 0.9s both;
+  opacity: 0.6;
+}
+
+.btn:active,.article__btn:active {
+  opacity: 0.8;
+}
+
+@keyframes squeeze3124 {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.header__btn,
+.card__btn-link {
+  transition: all 0.5s;
+}
+
+.header__btn:hover,
+.card__btn-link:hover {
+  transform: scale(1.2);
+  opacity: 0.6;
+}
+
+.header__btn:active,
+.card__btn-link:active {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+
+
+.header__list li,
+.footer__list-item a{
+  position: relative;
+}
+
+.header__list li::after,
+.footer__list-item a::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 1.5px;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s;
+  background: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
+}
+
+.header__list li:hover:after,
+.footer__list-item a:hover:after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.footer__list-item {
+  display: block;
+}
+
+.header__logo {
+  transition: all 0.3s;
+}
+
+.header__logo:hover {
+  transform: scale(1.1);
+}
+
+
+.hero__feedback-btn,
+.about__img-control,
+.choose__img-control,
+.how__video,
+.slide__link,
+.recent__card-link,
+.socials__link-img,
+.burger {
+  transition: all 0.5s;
+}
+
+.hero__feedback-btn:hover,
+.about__img-control:hover,
+.choose__img-control:hover,
+.how__video:hover,
+.slide__link:hover,
+.recent__card-link:hover,
+.socials__link-img:hover,
+.burger:hover {
+  transform: scale(1.1);
+  opacity: 0.6;
+}
+
+.hero__feedback-btn:active,
+.about__img-control:active,
+.choose__img-control:active,
+.how__video:active,
+.slide__link:active,
+.recent__card-link:active,
+.socials__link-img:active,
+.burger:active {
+  transform: scale(1.04);
+  opacity: 0.8;
+
+}
